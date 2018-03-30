@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
-
+*{
+	box-sizing: border-box;
+}
 h1, h2, h4, h5, h6 {
 	text-transform: uppercase;
 	color: #444;
@@ -94,4 +96,31 @@ text-align: center;
 }
 .columnasx3 h4{
 	padding-bottom: 20px;
+}
+
+.baner-2{
+background:url(imagenes/3.jpg);
+float: left;
+width: 100%;
+height: 200px;
+background-repeat: no-repeat;/*no se repita la imagen */
+background-size: cover;/*imagen al 100% del ancho*/
+background-attachment: fixed;/*posicion fija para la imagen*/
+text-align: center;
+}
+
+.baner-2 h3{
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	font-size: 32px;
+	height: 100%;
+    padding-top: 6%;
+}
+
+.baner-2 a{
+	text-decoration: none;
+	margin-left: 20px;
+	font-weight: bold;
+	color: #fff;
+	border-bottom: 2px solid #fff;
 }
