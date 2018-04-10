@@ -3,7 +3,13 @@
 	clear: both;
 	padding: 100px 0;
 	text-align: left;
-	/*background: #DFDDDD;*/
+	background-image: url(imagenes/lectura12.jpg);
+	background-repeat: no-repeat;/*no se repita la imagen */
+background-size: cover;/*imagen al 100% del ancho*/
+background-attachment: fixed;/*posicion fija para la imagen*/
+
+	
+
 }
 .contenido1{
 	width: 90%;
@@ -20,6 +26,13 @@
 
 }
 
+.color-titulo{
+	color: #fff;
+}
+.color-texto{
+	color: #BDBDBD;
+}
+
 /*segunda seccion*/
 
 .lecturas2{
@@ -27,7 +40,7 @@
 	clear: both;
 	padding: 100px 0;
 	text-align: left;
-	background: rgba(179,179,179,.10);
+	
 }
 .contenido2{
 	width: 90%;
@@ -44,6 +57,19 @@
 
 
 }
+.c-2 h1, h3{
+	color: #444;
+}
+.baner-lectura{
+background:url(imagenes/blectura3.jpg);
+float: left;
+width: 100%;
+height: 200px;
+background-repeat: no-repeat;/*no se repita la imagen */
+background-size: cover;/*imagen al 100% del ancho*/
+background-attachment: fixed;/*posicion fija para la imagen*/
+text-align: center;
+}
 
 
 /*tersera seccion*/
@@ -53,7 +79,10 @@
 	clear: both;
 	padding: 100px 0;
 	text-align: left;
-	background: rgba(0,88,131,.3);
+	background-image: url(imagenes/lectura7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 	
 }
 .contenido3{
@@ -81,8 +110,7 @@
 	clear: both;
 	padding: 100px 0;
 	text-align: left;
-	/*background: #272C72;*/
-	
+
 }
 .contenido4{
 	width: 90%;
@@ -91,23 +119,21 @@
 .contenido4 i{
 	padding: 32px 0;
 	padding-right: 30px;
-	font-weight: bold;
+	
 	float: left;
 	
 
 }
-.contenedor{
-	width: 100%;
-	margin: center;
-	
 
-}
 .c-4{
-	width: 28.6%;
-	float: left;
+
+	width: 29%;
+	float: right;
 	padding: 25px 25px;
-	box-sizing: border-box;
+
 }
+
+
 
 
 
@@ -119,19 +145,21 @@
 	clear: both;
 	padding: 100px 0;
 	text-align: left;
-	background: rgba(179,179,179,.8);
-	
+	background-image: url(imagenes/lectura5.PNG);
+	background-repeat: no-repeat;/*no se repita la imagen */
+background-size: cover;/*imagen al 100% del ancho*/
+background-attachment: fixed;/*posicion fija para la imagen*/
+
 }
 .contenido5{
-	width: 90%;
+	width: 80%;
 	margin: auto;
 }
-.c-5 img{
-	
-	padding: 32px 0;
-	padding-right: :30px;
-	font-weight: bold;
-	width: 90%;
-	height: 505px;
 
+.contenedor-ul{
+	width: 70%;
+	
+	margin: auto;
+	
+	
 }
