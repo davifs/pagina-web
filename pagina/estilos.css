@@ -10,20 +10,16 @@ header{
 	position: fixed;
 	z-index: 10;
 }
-/* aqui estamos modificando el ancho */
 .ancho{
 	width: 80%;
 	height: 50px;
-	/*background: red;*/
 	margin: auto;
 }
 .logo{
 	width: 30%;
 	height: 50px;
-	/*background: blue;*/
 	float: left;
-	
-	padding-top:15px;
+	padding-top: 20px;
 	box-sizing: border-box;
 	text-transform: uppercase;
 }
@@ -35,12 +31,11 @@ header{
 	font-family: rale;
 }
 .logo p a:hover{
-	color: #444;
+	color: #00C;
 }
 nav{
 	width: 70%;
 	height: 50px;
-	/*background: olive;*/
 	float: left;
 	text-align: right;
 	padding-top: 15px;
@@ -63,13 +58,9 @@ nav ul li a{
 
 }
 nav ul li a:hover{
-	color: #444;
+	color: #00C;
 }
 @font-face{
 	font-family: rale;
 	src:url(fuentes/Raleway-Regular.ttf);
 }
-
-
-
-

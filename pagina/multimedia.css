@@ -27,6 +27,13 @@ background-position: center;
 	background-position: right;
 	
 }
+.wap3{
+	
+	margin: auto;
+	background-image:url(imagenes/ad2.png);
+	background-position: right;
+	
+}
 
 .baner-5{
 	width:100%;
@@ -40,6 +47,21 @@ background-position: center;
 	transition: 0.4s;
 	color: #FFF;
 	font-size: 30px;
+	text-transform: uppercase;
+}
+.baner-7{
+	width:100%;
+	padding-top: 30px;
+	background-image:url(imagenes/bb3.png);
+	background-repeat: no-repeat;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	text-align:center;
+	transition: 0.4s;
+	color: #FFF;
+	font-size: 30px;
+	text-transform: uppercase;
 }
 .baner-6{
 	width:100%;
