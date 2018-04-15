@@ -98,7 +98,7 @@ text-align: center;
 	padding-right: :30px;
 	font-weight: bold;
 	width: 90%;
-	height: 90%;
+	height: 505px;
 
 }
 
@@ -116,7 +116,12 @@ text-align: center;
 	width: 90%;
 	margin: auto;
 }
-
+.contenido4 i{
+	padding: 32px 0;
+	padding-right: 30px;
+	
+	float: left;
+	
 
 }
 
@@ -152,7 +157,7 @@ background-attachment: fixed;/*posicion fija para la imagen*/
 }
 
 .contenedor-ul{
-	width: 70%;
+	width: 90%;
 	
 	margin: auto;
 	
